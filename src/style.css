@@ -56,3 +56,16 @@ form {
 .current-location-button {
   font-size: 14px;
 }
+
+.next-day-weather-box {
+  text-align: center;
+}
+
+.next-day-weather img {
+  display: block;
+  margin: 0 auto;
+  height: 48px;
+  width: 48px;
+}
+
+}
