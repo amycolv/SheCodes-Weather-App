@@ -36,3 +36,15 @@ a {
   border-radius: 20px;
   padding: 40px 20px;
 }
+
+.units {
+  font-size: 14px;
+}
+
+.float-left {
+  float: left !important;
+}
+
+.temperature-number strong {
+  font-size: 64px;
+}
