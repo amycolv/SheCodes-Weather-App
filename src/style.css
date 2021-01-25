@@ -26,6 +26,10 @@ a {
   text-decoration: none;
 }
 
+form {
+  padding-bottom: 10px;
+}
+
 .weather-app-wrapper {
   max-width: 600px;
   margin: auto;
@@ -47,4 +51,8 @@ a {
 
 .temperature-number strong {
   font-size: 64px;
+}
+
+.current-location-button {
+  font-size: 14px;
 }
