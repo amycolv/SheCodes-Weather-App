@@ -24,6 +24,7 @@ function formatDate(timestamp) {
 // temperature
 
 function displayTemperature(response) {
+  console.log(response.data);
   document.querySelector("#temperature").innerHTML = Math.round(
     response.data.main.temp
   );
@@ -39,6 +40,15 @@ function displayTemperature(response) {
   document.querySelector("#date").innerHTML = formatDate(
     response.data.dt * 1000
   );
+  document
+    .querySelector("#icon")
+    .setAttribute(
+      "src",
+      `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
+    );
+  document
+    .querySelector("#icon")
+    .setAttribute("alt", response.data.weather[0].description);
 }
 
 let apiKey = "70926df286833f646f0c1c5d64d6c1aa";
