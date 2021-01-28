@@ -61,11 +61,15 @@ form {
   font-size: 14px;
 }
 
-.next-day-weather-box {
+.weather-forecast {
   text-align: center;
 }
 
-.next-day-weather img {
+.weather-forecast-temperature {
+  text-align: center;
+}
+
+.forecast-image {
   display: block;
   margin: 0 auto;
   height: 48px;
