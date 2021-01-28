@@ -71,3 +71,12 @@ form {
   height: 48px;
   width: 48px;
 }
+
+.temperature-number .active {
+  color: black;
+  cursor: default;
+}
+
+.temperature-number .active:hover {
+  text-decoration: none;
+}
