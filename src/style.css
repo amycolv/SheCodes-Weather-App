@@ -51,6 +51,9 @@ form {
 
 .units {
   font-size: 14px;
+  position: relative;
+  bottom: 34px;
+  display: inline-block;
 }
 
 .float-left {
