@@ -1,11 +1,14 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  padding: 20px;
+  padding: 40px;
+  color: white;
 }
 
 h1 {
-  font-size: 32px;
-  font-weight: 100px;
+  color: white;
+  font-size: 36px;
+  font-family: "Playfair Display SC", serif;
+  font-weight: bold;
+  letter-spacing: 1px;
   line-height: 28px;
   padding-bottom: 0px;
 }
@@ -42,7 +45,8 @@ form {
 .weather-app {
   border: 1px solid black;
   border-radius: 20px;
-  padding: 40px 20px;
+  padding: 50px;
+  background-image: url("https://images.unsplash.com/photo-1558486012-817176f84c6d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=638&q=80");
 }
 
 .units {
@@ -63,6 +67,7 @@ form {
 
 .weather-forecast {
   text-align: center;
+  padding: 20px;
 }
 
 .weather-forecast-temperature {
@@ -77,10 +82,18 @@ form {
 }
 
 .temperature-number .active {
-  color: black;
+  color: white;
   cursor: default;
 }
 
 .temperature-number .active:hover {
   text-decoration: none;
+}
+
+.temperature-number .deactive:hover {
+  text-decoration: underline;
+}
+
+.open-source {
+  color: black;
 }
