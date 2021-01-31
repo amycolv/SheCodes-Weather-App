@@ -70,11 +70,11 @@ form {
 
 .weather-forecast {
   text-align: center;
-  padding: 20px;
 }
 
 .weather-forecast-temperature {
   text-align: center;
+  font-size: 14px;
 }
 
 .forecast-image {
